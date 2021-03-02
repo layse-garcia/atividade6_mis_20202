@@ -33,7 +33,7 @@ export class HomePage {
     }else{
 		status = 'Obesidade Grave';
 	}
-    this.showMessage(`IMC = ${imc.toFixed(2)} \nCLASSIFICAÇÃO = ` + status);
+    this.showMessage(`<b>IMC = ${imc.toFixed(2)} \nCLASSIFICAÇÃO = ` + status + `</b>`);
   }
 
   async showMessage(msg: string) {
@@ -45,7 +45,7 @@ export class HomePage {
     const toast = await this.toastController.create(
       {
         message: msg,
-        color: 'light',
+        color: 'warning',
         buttons: [
           {
             icon: 'close'
