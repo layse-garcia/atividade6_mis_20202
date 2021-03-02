@@ -22,13 +22,13 @@ export class HomePage {
     let status = '';
     if(imc < 18.5){
 		status = `Magreza`;
-    }else if(imc >= 18.5 || imc <= 24.9){
+    }else if(imc >= 18.5 && imc <= 24.9){
 		status = `Normal`;
     }
-    else if(imc >= 25 || imc <= 29.9){
+    else if(imc >= 25 && imc <= 29.9){
 		status = 'Sobrepeso';
     }
-    else if(imc >= 30 || imc <= 39.9){
+    else if(imc >= 30 && imc <= 39.9){
 		status = 'Obesidade';
     }else{
 		status = 'Obesidade Grave';
