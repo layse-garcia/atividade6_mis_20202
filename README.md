@@ -8,5 +8,6 @@ Entre na pasta do projeto e execute o comando abaixo para instalar as dependênc
 npm install
 ```
 Para abrir a aplicação, execute o comando:
-```ionic serve
+```
+ionic serve
 ```
