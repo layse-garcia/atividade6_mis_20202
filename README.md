@@ -2,7 +2,7 @@
 ### Atividade 6: Calculadora de IMC
 #### Layse Cristina Silva Garcia
 
-**Fazendo o projeto funcionar:**
+##### Fazendo o projeto funcionar:
 Entre na pasta do projeto e execute o comando abaixo para instalar as dependências:
 ```
 npm install
